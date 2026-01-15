@@ -1,4 +1,4 @@
-![Architecture Diagram](Untitled-2025-10-20-1802.png)
+
 # Gitlab Setup Guide line
 
 ## Set up for by default (means one ssh and one git)
@@ -89,10 +89,11 @@ User has read access to repo
  ↓
 git pull success
 ```
-
+![Architecture Diagram](Untitled-2025-10-20-1802.png)
 
 
    
+
 
 
 
