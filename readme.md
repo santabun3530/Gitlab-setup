@@ -74,8 +74,22 @@ git status
 git branch
 git switch branch-name
 ```
-
+## ssh flow
+```
+git pull
+ ↓
+SSH connects to vcs.technonext.com ( duiting this phase it read from  /etc/ssh/config or ~/.ssh/config right? )
+ ↓
+Server matches your public key (profile key)
+ ↓
+Authenticates you as user: mahbubl.hasan
+ ↓
+User has read access to repo
+ ↓
+git pull success
+```
 
 
    
+
 
